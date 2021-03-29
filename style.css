@@ -1,0 +1,81 @@
+body {
+    background-image: url(bunga.jpg);
+    background-repeat: repeat;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-image: url(bung.jpg)
+    
+}
+
+#main {
+    font-family: 'yu gothic';
+    color: wheat;
+}
+#footer {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: rgb(194, 204, 204);
+}
+
+#header h1 {
+    margin: -3px;
+    padding: 0 0 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blanchedalmond;
+}
+
+#nav {
+    background-color: rgb(2, 90, 86);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    font-family: cursive;
+}
+
+#nav a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+#content {
+    box-sizing: border-box;
+    float: left;
+    width: 400px;
+    padding-right: 20px;
+}
+
+form label,
+form input {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 200px;
+}
+
+#footer {
+    border-top: 1px solid gray;
+    text-align: center;
+}
+
+#footer p {
+    padding: 0;
+    margin: 0;
+}
